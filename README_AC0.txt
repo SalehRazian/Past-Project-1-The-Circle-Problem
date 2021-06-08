@@ -1,0 +1,8 @@
+General: While attempting the question and trying to solve it, it was clear that the function, in the question, takes in real values and outputing complex numbers on the unit circle on the complex plane. My goal was to see how the points move from the real line to the complex plane linearly to form the unit circle. I was expecting points of intersection and one point of maximum intersections (In other words, if the real line was a string and it was going to be stretched onto the unit circle, it will have to go over itself {creating a sharp point})
+
+Specific: I had a play with the functions I wrote. I have got the general idea from the code in (The_Circle) and my expectations were reassured even more by the code in (String_into_circle). I analyzed the end point of intersections and tried to estimate it using a python code. I figured out that that point is on the line starting from  (0.25,0) to (0,-1). So I found the equation of that line and to find that (//constant line) and I wrote an algorithm that claculates the point of instersection between that line and the next closest line (//delta line).
+
+The points turned to be at about (0.215674,0.137302)
+I was hoping to find some recognizable number (that might have some relationship with the golden ratio emerging from the sine and cosine functions), however, that was not clear.
+
+Another observation made was that a curve seems to be made by the intersecting lines (like a heart shape).
